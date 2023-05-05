@@ -25,7 +25,6 @@ header {
 .group{
   display: flex;
   flex-direction: row;
-  text-align: left;
 }
 
 .item{
