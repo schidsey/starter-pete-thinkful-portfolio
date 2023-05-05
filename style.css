@@ -22,6 +22,23 @@ header {
 }
 
 /* Containers */
+.group{
+  display: flex;
+  flex-direction: row;
+}
+
+.item{
+  text-align: right;
+  flex:1;
+}
+
+.itemtwo{
+  flex: 1;
+  text-align: left;
+  margin: auto;
+  padding-left: 15px;
+}
+
 div {
   background-color: #eae2b7;
   margin: auto;
@@ -75,4 +92,14 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.about{
+  text-align: left;
+}
+
+.portfolio{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
 }
